@@ -534,7 +534,7 @@ const LandingPage = () => {
           </div>
         </nav>
         <div className="text-center text-sm mt-8 text-ceruleanBlue-300">
-          Sourcify Team • {new Date().getFullYear()} • sourcify.eth{" "}
+          Sourcify Team • {new Date().getFullYear()} • trustcontract.dev{" "}
         </div>
       </footer>
     </div>

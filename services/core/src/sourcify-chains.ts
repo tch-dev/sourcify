@@ -59,8 +59,8 @@ function getBlockscoutRegex(blockscoutPrefix="") {
 
 export default {
     "1": { // Ethereum Mainnet
-        "supported": true,
-        "monitored": true,
+        "supported": false,
+        "monitored": false,
         "contractFetchAddress": "https://etherscan.io/" + ETHERSCAN_SUFFIX,
         "rpc": [
             buildAlchemyURL("mainnet", "eth", true),
@@ -143,6 +143,18 @@ export default {
         ],
         "txRegex": ETHERSCAN_REGEX
     },
+    "3501": {
+        "supported": true,
+        "monitored": false,
+        "contractFetchAddress": "https://exp.jfinchain.com/" + BLOCKSCOUT_SUFFIX,
+        "txRegex": getBlockscoutRegex()
+    },
+    "3502": {
+        "supported": true,
+        "monitored": false,
+        "contractFetchAddress": "https://exp.jfinchain.com/" + BLOCKSCOUT_SUFFIX,
+        "txRegex": getBlockscoutRegex()
+    },    
     "534": {
         "supported": true,
         "monitored": false,

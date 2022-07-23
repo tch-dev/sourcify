@@ -25,7 +25,7 @@ const Header = () => {
         <Link to="/" className="flex items-center">
           <img src={logoText} alt="Sourcify logo" className="max-h-10" />
           <span className="ml-3 text-gray-700 font-vt323 text-2xl">
-            sourcify.eth
+            trustcontract.dev
           </span>
         </Link>
       </div>

@@ -61,7 +61,7 @@ const Verifier: React.FC = () => {
                 ( 
                   <>
                     <div>Possibly a CORS error, check the browser console.</div>
-                    <div>Are you on a different domain than sourcify.dev or sourcify.eth? API v2 is not available except the official UI. See <a className="font-bold" href="https://docs.sourcify.dev/docs/api/#verification-api-v2---session-based">docs</a> for details </div>
+                    <div>Are you on a different domain than sourcify.dev or trustcontract.dev? API v2 is not available except the official UI. See <a className="font-bold" href="https://docs.sourcify.dev/docs/api/#verification-api-v2---session-based">docs</a> for details </div>
                   </>
                 )
             }

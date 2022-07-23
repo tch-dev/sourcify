@@ -167,6 +167,36 @@
     "networkId": 7
   },
   {
+    "name": "JFIN Chain",
+    "chain": "JFIN",
+    "rpc": ["https://rpc.jfinchain.com"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "JFIN Token",
+      "symbol": "JFIN",
+      "decimals": 18
+    },
+    "infoURL": "https://exp.jfinchain.com",
+    "shortName": "tch",
+    "chainId": 3501,
+    "networkId": 3501
+  },
+  {
+    "name": "JFIN Chain Testnet",
+    "chain": "JFIN",
+    "rpc": ["https://rpc.testnet.jfinchain.com"],
+    "faucets": [],
+    "nativeCurrency": {
+      "name": "JFIN Token",
+      "symbol": "JFIN",
+      "decimals": 18
+    },
+    "infoURL": "https://exp.testnet.jfinchain.com",
+    "shortName": "tch",
+    "chainId": 3502,
+    "networkId": 3502
+  },
+  {
     "name": "Ubiq",
     "chain": "UBQ",
     "rpc": ["https://rpc.octano.dev", "https://pyrus2.ubiqscan.io"],

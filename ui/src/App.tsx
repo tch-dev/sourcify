@@ -8,7 +8,7 @@ import Verifier from "./pages/Verifier";
 function App() {
   useEffect(() => {
     if (process.env.REACT_APP_TAG === "latest") {
-      document.title = "(staging) sourcify.eth";
+      document.title = "(staging) trustcontract.dev";
     }
   }, []);
 
